@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Scoutie+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+body {
+  background-color: #B5885E;
+  margin: 0;
+} 
+
+.container {
+  width: 90%; 
+  margin: 0 auto; 
+}
+
+nav {
+  background-color: #B5885E;
+  opacity: 0.8;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 10px 20px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.icon {
+  width: 80px;
+  height: 80px;
+}
+
+a {
+  text-decoration: none; 
+  color: #724120;
+  padding: 10px 15px;
+  font-weight: bold;
+} 
+.cup{
+  width: 412px;
+  height: 420px; 
+  justify-content: right;
+  margin-right: 50px; 
+
+} 
+.content .start{
+font-family: "Scoutie Sans", sans-serif;
+  font-size: 44px;
+  color: #724120; 
+  size: 24px;
+} 
+.content .description{
+  color: #D9B382; 
+  font-family: 'Scoutie Sans', sans-serif;
+  size: 24px; 
+  font-size: 24px;
+}
+.content {
+  display:flex;
+  justify-content: space-between;
+  margin-top: 80px; 
+
+}
+.text {
+  max-width: 30%;
+  padding: 20px; 
+  margin-left: 50px;
+} 
+.btn{
+    text-transform: uppercase;
+    background-color: #724120;
+    color: #D9B382; 
+    width: 258px;
+    height: 70px; 
+    border-radius: 15px;
+    border: none;
+    text-align: center; 
+    font-family: 'Scoutie Sans', sans-serif;
+    font-size: 34px;
+}
